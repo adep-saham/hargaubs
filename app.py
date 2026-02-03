@@ -25,7 +25,7 @@ HEADERS = {
 # =============================
 def fetch_ubs_chart():
     payload = {
-        "action": ACTION,
+        "ACTION": ACTION,
         "type": TYPE,
         "range": RANGE
     }
